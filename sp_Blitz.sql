@@ -1,7 +1,7 @@
 IF OBJECT_ID('dbo.sp_Blitz') IS NULL
   EXEC ('CREATE PROCEDURE dbo.sp_Blitz AS RETURN 0;');
 GO
-
+-- test change
 ALTER PROCEDURE [dbo].[sp_Blitz]
     @Help TINYINT = 0 ,
     @CheckUserDatabaseObjects TINYINT = 1 ,
