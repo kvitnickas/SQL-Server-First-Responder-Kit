@@ -3,7 +3,7 @@ IF OBJECT_ID('dbo.sp_Blitz') IS NULL
 GO
 
 ALTER PROCEDURE [dbo].[sp_Blitz]
-    @Help TINYINT = 0 ,
+    @Help TINYINT = 1 ,
     @CheckUserDatabaseObjects TINYINT = 1 ,
     @CheckProcedureCache TINYINT = 0 ,
     @OutputType VARCHAR(20) = 'TABLE' ,
